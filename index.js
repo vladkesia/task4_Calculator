@@ -1,6 +1,6 @@
-let action = prompt('Яку дію хочете зробити? (add, sub, mult, div)')
-let firstNumber = +prompt('Перше число')
-let secondNumber= +prompt('Друге число ')
+const action = prompt('Яку дію хочете зробити? (add, sub, mult, div)')
+const firstNumber = +prompt('Перше число')
+const secondNumber= +prompt('Друге число ')
 
 if(!isNaN(firstNumber) && !isNaN(secondNumber)){
 switch (action) {
